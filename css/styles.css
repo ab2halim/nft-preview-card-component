@@ -1,0 +1,133 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+}
+
+a.btn {
+  background-image: url("images/image-equilibrium.jpg");
+  width: 300px;
+  height: 300px;
+  margin: 25px auto;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.middle-container {
+  background-color: hsl(216, 50%, 16%);
+  height: 595px;
+  width: 350px;
+  margin: 150px auto;
+  border-radius: 15px;
+  box-shadow: 0 15px 80px -40px;
+  text-align: left;
+}
+
+a.equilibrium {
+  width: 300px;
+  height: 300px;
+  margin: 25px;
+  border-radius: 8px;
+  display: inline-block;
+  background-image: url("../images/image-equilibrium2.jpg");
+  background-repeat: no-repeat;
+}
+
+a.equilibrium:hover {
+  background-image: url("../images/icon-view.svg"),
+    url("../images/image-equilibrium3.jpg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: center;
+}
+
+.eq {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  margin: 0 0 0 25px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.eq:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.text-1 {
+  color: hsl(215, 51%, 70%);
+  margin-left: 25px;
+  font-weight: 300;
+  width: 300px;
+}
+
+.ethereum {
+  margin-left: 25px;
+  display: inline-block;
+  margin-top: 2px;
+}
+
+.text-2 {
+  color: hsl(178, 100%, 50%);
+  width: 100px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 5px;
+}
+
+.clock {
+  display: inline-block;
+  margin-left: 185px;
+  margin-top: 3px;
+  position: absolute;
+}
+
+.text-3 {
+  color: hsl(215, 51%, 70%);
+  width: 90px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 205px;
+}
+
+hr {
+  width: 300px;
+  border-color: hsl(215, 32%, 27%);
+  border-style: solid none none none;
+  border-width: 2px;
+}
+
+.avatar {
+  margin-left: 25px;
+  width: 30px;
+  margin-top: 16px;
+}
+
+.text-4 {
+  text-align: center;
+  color: hsl(215, 51%, 70%);
+  position: absolute;
+  margin-left: 75px;
+  top: 680px;
+  margin-top: 0;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+.name:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
